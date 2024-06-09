@@ -1,0 +1,26 @@
+1. Database relasional dibutuhkan ketika:
+- Memerlukan konsistensi dan transaksi data yang aman.
+- Data memiliki struktur yang jelas.
+- Perlu melakukan query yang kompleks.
+Contoh: sistem keuangan, perbankan, dan aplikasi lainnya.
+
+Database NoSQL lebih sesuai ketika:
+- Data sering berubah dan tidak terstruktur.
+- Memerlukan skalabilitas besar untuk big data.
+- Membutuhkan performa tinggi dan ketersediaan data.
+Contoh: media sosial, analitik big data, dan aplikasi IoT.
+
+2.
+-Database:Tempat penyimpanan data terstruktur.
+-Data Lake:Tempat penyimpanan umum untuk menyimpan data dalam jumlah besar tanpa struktur tertentu.
+Cocok untuk data mentah yang belum memiliki tujuan spesifik.
+-Data Warehouse:Tempat penyimpanan data yang telah diproses sebelumnya dan dioptimalkan untuk analitik.
+Memiliki struktur data yang jelas dan terdefinisi dengan baik.
+Ideal untuk tujuan analitik dan pelaporan.
+-Data Mart:Tempat penyimpanan data terstruktur yang telah diproses sebelumnya.
+Digunakan untuk tujuan pelaporan tertentu.
+
+3. Normalisasi database adalah proses perbaikan struktur database untuk mengurangi redundansi data dan memastikan konsistensi data dalam database.
+Tujuannya adalah untuk mengorganisir data dalam struktur yang efisien dan mudah dipahami. 
+Proses ini melibatkan pemecahan data menjadi beberapa tabel, di mana setiap tabel hanya berisi informasi yang berkaitan dengan satu subjek tertentu. 
+Normalisasi membantu menghindari duplikasi data, meningkatkan konsistensi, dan mempermudah pengelolaan data.
